@@ -8,7 +8,8 @@ const platforms = [
   { value: "youtube", label: "YouTube" },
   { value: "twitter", label: "Twitter" },
 ]
-const YOUR_GOOGLE_API_KEY=import.meta.env.SM_KEY
+const YOUR_GOOGLE_API_KEY=import.meta.env.VITE_SM_KEY;
+
 
 export const HomePage = () => {
   const [formData, setFormData] = useState({
